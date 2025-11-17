@@ -1,0 +1,11 @@
+build/
+*.o
+*.a
+*.so
+*.exe
+.vscode/
+.idea/
+cmake-build-*/
+*.log
+data/historical/*.csv
+!data/historical/.gitkeep

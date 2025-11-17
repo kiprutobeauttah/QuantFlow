@@ -1,0 +1,8 @@
+add_executable(simple_sma_strategy simple_sma_strategy.cpp)
+target_link_libraries(simple_sma_strategy quantflow)
+
+add_executable(mean_reversion_strategy mean_reversion_strategy.cpp)
+target_link_libraries(mean_reversion_strategy quantflow)
+
+add_executable(complete_backtest complete_backtest.cpp)
+target_link_libraries(complete_backtest quantflow)
